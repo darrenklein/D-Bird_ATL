@@ -54,21 +54,21 @@
 	<!-- NEW DATEPICKER -->
 
 	
-	<!-- NEW TIMEPICKER -->
-	<script type="text/javascript" src="jquery.timepicker.js"></script>
-	<link rel="stylesheet" type="text/css" href="jquery.timepicker.css" />
 	
+	<script type="text/javascript" src="jquery.timepicker.js"></script>
+	<link rel="stylesheet" type="text/css" href="jquery.timepicker.css" />	
 
 	<script>
 		$(function() {
-		$( "#entry_1322686028" ).timepicker();
+		  $("#entry_1322686028").timepicker();
 		});
 	</script> 
-	<!-- NEW TIMEPICKER -->		
+		
+    
+   
         
 
-	<!-- THANK YOU REDIRECT -->
-    <script type="text/javascript">var submitted=false;</script>
+
     
     
    
@@ -453,6 +453,7 @@
                             </div>
                             
                             <div class="show-for-medium-up">
+                              
                                 <div class="ss-form-question errorbox-good" role="listitem">
                                         <label for="entry_1322686028">Time found *</label>
                                                 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
@@ -460,8 +461,9 @@
                                             <input type="text" name="time" value="" class="ss-q-short" id="entry_1322686028" dir="auto" aria-label="Time Found  " aria-required="true" required="" title="">
                                             <div class="error-message" id="730570887_errorMessage"></div>
                                         </div>
-                                    
                                 </div>
+                                
+                                
                             </div>
 
                             
@@ -549,6 +551,8 @@
     Design by <a href="http://patrickharry.com/" target="blank">Patrick Harry UX</a></br>
     Special thanks to Eric Brelsford
     </div>
+
+
 
 
 

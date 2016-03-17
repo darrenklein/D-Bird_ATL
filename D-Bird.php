@@ -275,7 +275,6 @@ if ($conn->multi_query($sql) === TRUE) {
 
 	
 
-
          $sql = "INSERT INTO Master_List (date, time, latitude, longitude, accuracy, species, deadinjured, sex, age, name, contact_info, notes, source)
 VALUES ('$date', '$time', '$latitude', '$longitude', '$accuracy', '$species', '$deadinjured', '$sex', '$age', '$name', '$contact_info', '$notes', 'atlanta audubon');";
 
@@ -305,7 +304,6 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $query);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
 $result_not_parsed = curl_exec($ch);
 //----------------
-
 
 
             if ($conn->multi_query($sql) === TRUE) {
